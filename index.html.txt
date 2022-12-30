@@ -1,0 +1,14 @@
+<html>
+<head>
+  <title>Hotel Booking</title>
+</head>
+<body>
+  <h1>Hotel Booking</h1>
+  <form action="/search" method="post">
+    Check-in date: <input type="date" name="checkin"><br>
+    Check-out date: <input type="date" name="checkout"><br>
+    Number of guests: <input type="number" name="guests"><br>
+    <input type="submit" value="Search">
+  </form>
+</body>
+</html>
